@@ -1,14 +1,12 @@
-# TickTackToe
-My First React App
+# React + Vite
 
-This app consist in replicate the game tic tac toe or in spanish "tres en raya"
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Installation guide
+Currently, two official plugins are available:
 
-First you need to dowload this repo by executing git clone "(route_https)" or dowload it by zip.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Then you need to execute just two commands <strong>npm install</strong> and <strong>npm run dev</strong>
+## Expanding the ESLint configuration
 
-![image](https://github.com/user-attachments/assets/029151c9-0e62-4cb9-a3b7-8626c8e86fee)
-
-![image](https://github.com/user-attachments/assets/7dd49205-de82-4e06-9626-475ec351ee16)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
